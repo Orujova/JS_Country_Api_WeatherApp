@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  user-select: none;
+}
+body {
+  background-color: teal;
+}
+
+.container {
+  
+  text-align: center;
+  width: 40%;
+  height: 500px;
+  background-color: aquamarine;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+.input {
+  margin: 30px;
+  padding: 14px;
+}
+
+#btn {
+  padding: 10px 20px;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+li {
+  margin: 14px;
+  font-size: 18px;
+  padding: 14px;
+}
+@media screen and (max-width: 630px) {
+  .container {
+   
+    width: 60%;}
+}
+@media screen and (max-width: 406px) {
+  .container {
+   
+    width: 80%;}
+}
